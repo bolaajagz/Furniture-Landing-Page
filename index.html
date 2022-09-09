@@ -1,0 +1,439 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuzre</title>
+  <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- FONT AWESOME BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm  navbar fixed-top bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="/Images/chuzre.com.svg" alt="site-logo" width="" height="" class="d-inline-block align-text-top"></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse " id="navbarText">
+            <ul class="navbar-nav me-auto mt-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">About Us</a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link" href="#features">Furnitures</a>
+              </li>
+            </ul>
+
+            <ul class="nav justify-content-end">
+              <li class="nav-item mt-2 px-3">
+                <span class="fa-solid fa-magnifying-glass d-none d-sm-block"></span> 
+              </li>
+              <li class="nav-item mt-2 px-3">
+                  <span class="fa-solid fa-cart-shopping d-none d-sm-block"></span>
+              </li>
+            </ul>
+
+           
+
+            <form class="d-flex" role="search">
+                <div class="nav-item" class="d-flex justify-content-end">
+                    <a class="nav-link" href="#"> </a>
+                </div>
+                <span class="nav-item">
+                </span>
+                <a class="css-button-arrow--sky mt-3 px-5 mx-4" role="button">Contact</a>
+
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle mt-3 mx-3" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Eng
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>
+                </ul>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+
+    <!-- HEADER -->
+  <section class="mt-5">
+    <div class="background" style="background-image: url('./Images/unsplash_NFbwes_e-jI.png');">
+      <div class="color-overlay d-flex justify-content-center align-items-center ">
+        
+      <!-- <div class="row d-flex flex-row-reverse">
+        <div class="">
+          <img src="./Images/Group 11.svg" class="img-fluid" alt="hero-design">
+        </div>
+        <div class="rotated ">
+          More Than Furnitures
+        </div>
+      </div> -->
+
+        <div class="container-fluid p-5 mt-5 text-center ">
+          <h1 class="display-4 fw-bold hero-head">Exclusive furnitures <br> for your home</h1>
+          <p class="lead py-3">We provide you with furnitures that brightens your interior</p>
+          
+          <a class="css-button-arrow--sky px-5 lead" role="button">Shop Now</a>
+          <!-- <p>hello</p> -->
+          <div class="py-5">
+            <img src="./Images/Star 1.svg" class="img-fluid" alt="rating">
+            <span class="fw-bold lead">4.9 overall rating</span><span class="lead"> - over 100k customers</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section services-section ft-bgcolor mt-3" id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-title">
+                    <h5>Why Us? <span><img src="./Images/Vector 2.svg" alt="Feature image"></span></h5>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- feaure box -->
+            <div class="col-sm-6 col-lg-4">
+                <div class="feature-box-1">
+                    <div class="icon flex">
+                        <i class="fa fa-credit-card"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h5> Flexible Payment</h5>
+                        <p>We provide you with flexible payment plan</p>
+                        <a type="button" class="mt-2 btn btn-link actionbtn">read more...</a>
+                    </div>
+                </div>
+            </div>
+            <!-- / -->
+            <!-- feaure box -->
+            <div class="col-sm-6 col-lg-4">
+                <div class="feature-box-1">
+                    <div class="icon free">
+                        <i class="fa fa-truck"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h5>Free Shipping</h5>
+                        <p>We deliver to your location at no cost.</p>
+                        <a type="button" class="mt-2 btn btn-link actionbtn">read more...</a>
+                    </div>
+                </div>
+            </div>
+            <!-- / -->
+            <!-- feaure box -->
+            <div class="col-sm-6 col-lg-4">
+                <div class="feature-box-1">
+                    <div class="icon setup">
+                        <i class="fa fa-cog"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h5>Free Setup</h5>
+                        <p>We help you set up your furnitures</p>
+                        <a type="button" class="mt-2 btn btn-link actionbtn">read more...</a>
+                    </div>
+                </div>
+            </div>
+            <!-- / -->
+            <!-- feaure box -->
+            <!-- <div class="col-sm-6 col-lg-4">
+                <div class="feature-box-1">
+                    <div class="icon">
+                        <i class="fa fa-image"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h5>Responsiveness</h5>
+                        <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                    </div>
+                </div>
+            </div> -->
+            <!-- / -->
+            <!-- feaure box -->
+            <!-- <div class="col-sm-6 col-lg-4">
+                <div class="feature-box-1">
+                    <div class="icon">
+                        <i class="fa fa-th"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h5>Testing for Perfection</h5>
+                        <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                    </div>
+                </div>
+            </div> -->
+            <!-- / -->
+            <!-- feaure box -->
+            <!-- <div class="col-sm-6 col-lg-4">
+                <div class="feature-box-1">
+                    <div class="icon">
+                        <i class="fa fa-cog"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h5>Advanced Options</h5>
+                        <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                    </div>
+                </div>
+            </div> -->
+            <!-- / -->
+        </div>
+    </div>
+</section>
+
+<!-- About Us -->
+<section id="about-us">
+ <div class="container py-5 ">
+   <div class="row">
+     <div class="col-md">
+      <h5 class="pb-4">About us <span><img src="./Images/Vector 2.svg" alt=""></span> </h5>
+      <h2 class="pb-4 w-75">Best in supplying <span class="about-text">Exclusive furniture</span> service</h2>
+      <p class="pb-5  w-50">Our experience over decades beautifying homes with our product</p>
+      <a class="css-button-arrow--sky px-5  about-btn" role="button">Shop Now</a>
+    </div>
+    <div class="col-md ">
+      <img src="./Images/Group 16.svg" class="img-fluid" alt="about-image">
+    </div>
+  </div>
+ </div>
+</section>
+
+<!-- Pricing -->
+<section class="ftco-section" id="features">
+  <div class="container">
+    <h5 class="pb-4">Features <span><img src="./Images/Vector 2.svg" alt=""></span> </h5>
+
+      <div class="row justify-content-center pb-5 mb-3">
+          <div >
+              <h2>Most Popular Products</h2>
+          </div>
+      </div>
+
+      <div class="row pricing-row">
+        <!-- 1 -->
+          <div class="col-md-4 ftco-animate fadeInUp ftco-animated">
+              <div class="block-7">
+                  <div>
+                    <img src="./Images/unsplash_OtXADkUh3-I.svg" class="img-fluid  container  my-3" alt="dinning">
+                  </div>
+                  <div class="container" >
+                    <p class="dinning-parent lead" >Dinning Set  with Table
+                      <span class="lead dinning-price">$950</span>
+                    </p>
+                    <!-- <p class="dinning-review"> -->
+                     <sub><i class="fa fa-star"></i>
+                      4.5 -  110 reviews</sub>
+                    </p>
+                  </div>
+                  <div class="dinning-btn">
+                    <a href="#" class="css-button-arrow--sky px-5 my-4 dinning-btn-color " role="button">Add to cart</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="col-md-4 ftco-animate fadeInUp ftco-animated">
+              <div class="block-7">
+                  <div>
+                    <img src="./Images/unsplash_pOS2YvNNeUI.svg" class="img-fluid  container  my-3" alt="dinning">
+                  </div>
+                  <div class="container" >
+                    <p class="dinning-parent lead" >Techo Bed Frame
+                      <span class="lead dinning-price">$850</span>
+                    </p>
+                    <!-- <p class="dinning-review"> -->
+                     <sub><i class="fa fa-star"></i>
+                      4.5 -  110 reviews</sub>
+                    </p>
+                  </div>
+                  <div class="dinning-btn">
+                    <a href="#" class="css-button-arrow--sky px-5 my-4 dinning-btn-color " role="button">Add to cart</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="col-md-4 ftco-animate fadeInUp ftco-animated">
+              <div class="block-7">
+                  <div>
+                    <img src="./Images/unsplash_Et0zBXKfl0w.svg" class="img-fluid  container  my-3" alt="dinning">
+                  </div>
+                  <div class="container" >
+                    <p class="dinning-parent lead" >Chuzre Sofa set
+                      <span class="lead dinning-price">$500</span>
+                    </p>
+                    <!-- <p class="dinning-review"> -->
+                     <sub><i class="fa fa-star"></i>
+                      4.5 -  110 reviews</sub>
+                    </p>
+                  </div>
+                  <div class="dinning-btn">
+                    <a href="#" class="css-button-arrow--sky px-5 my-4 dinning-btn-color " role="button">Add to cart</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="col-md-4 ftco-animate fadeInUp ftco-animated">
+              <div class="block-7">
+                  <div>
+                    <img src="./Images/unsplash_OtXADkUh3-I.svg" class="img-fluid  container  my-3" alt="dinning">
+                  </div>
+                  <div class="container" >
+                    <p class="dinning-parent lead" >Sitting Sofa with Vase
+                      <span class="lead dinning-price">$450</span>
+                    </p>
+                    <!-- <p class="dinning-review"> -->
+                     <sub><i class="fa fa-star"></i>
+                      4.5 -  110 reviews</sub>
+                    </p>
+                  </div>
+                  <div class="dinning-btn">
+                    <a href="#" class="css-button-arrow--sky px-5 my-4 dinning-btn-color " role="button">Add to cart</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="col-md-4 ftco-animate fadeInUp ftco-animated">
+              <div class="block-7">
+                  <div>
+                    <img src="./Images/unsplash_phXwnWWz-BM.svg" class="img-fluid  container my-2  w-75 " alt="dinning">
+                  </div>
+                  <div class="container" >
+                    <p class="dinning-parent lead" >Office Chair
+                      <span class="lead dinning-price">$350</span>
+                    </p>
+                    <!-- <p class="dinning-review"> -->
+                     <sub><i class="fa fa-star"></i>
+                      4.5 -  110 reviews</sub>
+                    </p>
+                  </div>
+                  <div class="dinning-btn">
+                    <a href="#" class="css-button-arrow--sky px-5 my-4 dinning-btn-color " role="button">Add to cart</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="col-md-4 ftco-animate fadeInUp ftco-animated">
+              <div class="block-7">
+                  <div>
+                    <img src="./Images/unsplash_UZW4GrEvHMA.svg" class="img-fluid  container  my-3" alt="dinning">
+                  </div>
+                  <div class="container" >
+                    <p class="dinning-parent lead" >Armlex stool
+                      <span class="lead dinning-price">$450</span>
+                    </p>
+                    <!-- <p class="dinning-review"> -->
+                     <sub><i class="fa fa-star"></i>
+                      4.5 -  110 reviews</sub>
+                    </p>
+                  </div>
+                  <div class="dinning-btn">
+                    <a href="#" class="css-button-arrow--sky px-5 my-4 dinning-btn-color " role="button">Add to cart</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="container  d-flex justify-content-center">
+          <a href="#" class="price-button css-button-arrow--sky px-5 my-4 dinning-btn-color"  role="button">See More</a>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- Product -->
+<section class=" product text-white">
+  <div class="container">
+    <div class="pt-5 ps-4">
+      <img src="./Images/Vector 6.png" alt="">
+    </div>
+   <div class="row p-5">
+    <div class="col-md-4 d-flex justify-content-center align-items-center product-text">
+      We produce nothing but EXTRAORDINARY
+    </div>
+    <div class="col-md-2
+    d-flex justify-content-center align-items-center ">
+      <img src="/Images/Vector 5.svg" alt="connecting line" class="img-fluid d-none d-sm-block
+      ">
+    </div>
+
+    <div class="product-image col-md-6">
+      <img src="./Images/unsplash_bpg-ngqrPc8.svg" alt="chair" class="img-fluid ">
+    </div>
+   </div>
+  </div>
+</section>
+
+<footer class="container text-center">
+  <hr class="mt-5">
+    <div class="row">
+      <div class="col-3">
+        Menu
+      </div>
+      <div class="col-3">
+        Terms of Service
+      </div>
+      <div class="col-3">
+        Careers
+      </div>
+      <div class="col-3">
+        FAQ
+      </div>
+    </div>
+    <div class="p-3">
+      © 2022 chuzre.com  All Rights Reserved | (+991) 7867896  | info@churze.com
+    </div>
+    <div class="we-accept">
+      We accept:
+    </div>
+    <div class="logo">
+      <img src="/Images/PayPal.svg" alt="paypal">
+      <img src="/Images/Stripe.svg" alt="stripe">
+      <img src="/Images/Mastercard Logo.svg" alt="mastercard">
+    </div>
+</footer>
+
+
+
+
+
+
+   
+
+
+   
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
+</body>
+</html>
