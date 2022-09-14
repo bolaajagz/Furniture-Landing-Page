@@ -76,9 +76,14 @@ a, a:hover, a:focus, a:active {
 
 .rotated {
   transform: rotate(-90deg); /* Equal to rotateZ(-90deg) */
-  background-color: pink;
-  /* width: 250px; */
-  /* height: ; */
+  width: 190px;
+  position: absolute;
+  left: -10;
+}
+@media (max-width:768px){
+  .rotated{
+    display: none;
+  }
 }
 
 
